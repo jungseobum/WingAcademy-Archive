@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>
+            Wing Academy 시즌 요약
+        </title>
+    </head>
+</html>
+<body>
+    <h1>
+        시즌 요약
+    </h1>
+    <div>
+        <h2> 시즌 목록 </h2>
+        <button onclick="showSeason('2024')">2023-24 시즌</button>
+        <button onclick="showSeason('2025')">2024-25 시즌</button>
+        <button onclick="showSeason('2026')">2025-26 시즌</button>
+    </div>
+    <div id="default" class="season" style="display:none;">
+        <p>
+            시즌별 요약을 모아놓은 문서입니다.
+        </p>
+    </div>
+
+    <div>
+        <div id="2024" class="season" style="display:none;">
+            <h3>2023-24 시즌</h3>
+            <p>
+                23/24 시즌은 Wing Academy가 처음으로 리그에 출범한 시즌이다. 
+                리그에서 34경기 14승 8무 12패로 리그 9위에 올랐으며, 컵대회는 3라운드에서 패배했다.
+                Rego, Alonso, Mhamdi 등이 영입되고 Poll, Floranus 등이 방출되었다.
+            </p>
+        </div>
+    </div>
+        <div>
+        <div id="2025" class="season" style="display:none;">
+            <h3>2024-25 시즌</h3>
+            <p>
+                24/25 시즌은 Wing Academy의 본격적인 활약이 시작된 시즌이다.
+                리그에서 34경기 23승 6무 5패로 PSV와 승점이 같았지만 골득실에서 앞서 리그 3위를 기록했으며,
+                컵대회는 8강에서 아약스에 패배했다.
+                Gouet, Zeefuik, Melegoni, Komur 등이 영입되고 Diehl, Esajas, Pascu 등이 방출되었다.
+            </p>
+        </div>
+    </div>
+    <div>
+        <div id="2026" class="season" style="display:none;">
+            <h3>2025-26 시즌</h3>
+            <p>
+                25/26 시즌은 리그에서 34경기 28승 1무 5패로 리그 2위를 기록했고, 컵대회는 제3라운드에서 아약스에 패배했다.
+                챔피언스리그 조별 단계에서 24등으로 플레이오프에 진출했고 리버풀에게 플레이오프에서 패배했다.
+                Rodriguez, Zagre, Unuvar, Lazetic 등이 영입되고 Nusa, Nalic, Barget 등이 방출되었다.
+            </p>
+        </div>
+    </div>
+    <script>
+
+    window.onload=function(){
+        document.getElementById('default').style.display='block';
+    };
+    function showSeason(id) {
+      document.getElementById('default').style.display='none';
+      const seasons=document.getElementsByClassName('season');
+      for (let i=0;i<seasons.length;i++) {
+        seasons[i].style.display='none';
+      }
+      document.getElementById(id).style.display='block';
+    }
+  </script>
+</body>
+</html>
