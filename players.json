@@ -1,12 +1,12 @@
 {
-    "name": "Lazetic",
-    "position": "ST",
-    "seasons": {
-        "26/27": { "games": "43", "goal": "19", "assist": "3", "rating": "6.88"},
-        "27/28": { "games": "12", "goal": "19", "assist": "3", "rating": "6.88"}
+    "Lazetic": {
+        "name": "Lazetic",
+        "position": "ST",
+        "seasons": {
+            "26/27": { "games": "43", "goal": "19", "assist": "3", "rating": "6.88"},
+            "27/28": { "games": "43", "goal": "19", "assist": "3", "rating": "6.88"}
+        }
     }
-    
-
 }
 
 
