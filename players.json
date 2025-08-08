@@ -3,7 +3,7 @@
         "name": "Lazetic",
         "position": "ST",
         "seasons": {
-            "26/27": { "games": "43", "goal": "19", "assist": "3", "rating": "6.88"},
+            "26/27": { "games": "43", "goal": "19", "assist": "3", "rating": "6.88"}
         }
     },
     "Rodriguez": {
@@ -13,7 +13,7 @@
             "25/26": { "games": "33", "goal": "11", "assist": "7", "rating": "7.12"},
             "26/27": { "games": "32", "goal": "20", "assist": "4", "rating": "7.29"}            
         }
-  }
+    }
 }
 
 
