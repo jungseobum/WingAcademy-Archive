@@ -1,24 +1,27 @@
-<html>
+<!DOCTYPE html>
+<html lang="ko">
     <head>
         <title>
-            Wing Academy 시즌 요약
+            Wing Academy 선수 정보
         </title>
     </head>
 </html>
 <body>
     <h1>
-        시즌 요약
+        선수 기록
     </h1>
+    <script>
+        fetch('players.json').then(res=>res.json()).then(data=>{console.log(data.name)});
+    </script>
     <div>
         <h2> 시즌 목록 </h2>
         <button onclick="showSeason('2024')">2023-24 시즌</button>
         <button onclick="showSeason('2025')">2024-25 시즌</button>
         <button onclick="showSeason('2026')">2025-26 시즌</button>
-        <button onclick="showSeason('2027')">2026-27 시즌</button>
     </div>
     <div id="default" class="season" style="display:none;">
         <p>
-            시즌별 요약을 모아놓은 문서입니다.
+            Wing Academy에 머물렀던 선수별 정보를 모아놓은 문서입니다.
         </p>
     </div>
 
@@ -50,16 +53,6 @@
                 25/26 시즌은 리그에서 34경기 28승 1무 5패로 리그 2위를 기록했고, 컵대회는 제3라운드에서 아약스에 패배했다.
                 챔피언스리그 조별 단계에서 24등으로 플레이오프에 진출했고 리버풀에게 플레이오프에서 패배했다.
                 Rodriguez, Zagre, Unuvar, Lazetic 등이 영입되고 Nusa, Nalic, Barget 등이 방출되었다.
-            </p>
-        </div>
-    </div>
-    <div>
-        <div id="2027" class="season" style="display:none;">
-            <h3>2026-27 시즌</h3>
-            <p>
-                26/27 시즌은 리그에서 34경기 25승 5무 4패로 리그 3위를 기록했고, 컵대회는 결승에서 AZ 알크마르에 승리하며 첫 트로피를 따냈다.
-                유로파에서는 리그 단계와 16강을 통과했으나 8강에서 AT 마드리드에게 승부차기 패배했다.
-                Senaya, Roefs, Mendy, Fougerolles 등이 영입되고 Rober, Seimen, Nypan 등이 방출되었다.
             </p>
         </div>
     </div>
