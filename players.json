@@ -13,6 +13,48 @@
             "25/26": { "games": "33", "goal": "11", "assist": "7", "rating": "7.12"},
             "26/27": { "games": "32", "goal": "20", "assist": "4", "rating": "7.29"}            
         }
+   },
+    "Sow": {
+        "name": "Cobel Sow",
+        "position": "LW",
+        "seasons": { 
+            "25/26": { "games": "19", "goal": "3", "assist": "1", "rating": "6.85"},
+            "26/27": { "games": "38", "goal": "12", "assist": "8", "rating": "6.97"}          
+        }
+    },
+    "Unuvar": {
+        "name": "Naci Unuvar",
+        "position": "AMC,LW",
+        "seasons": { 
+            "25/26": { "games": "19", "goal": "10", "assist": "5", "rating": "7.33"},
+            "26/27": { "games": "36", "goal": "13", "assist": "3", "rating": "7.00"}          
+        }        
+    },
+    "Hansen": {
+        "name": "Kornelius Hansen",
+        "position": "ST,RW,AMC,LW",
+        "seasons": {
+            "23/24": { "games": "28", "goal": "15", "assist": "2", "rating": "7.11"},
+            "24/25": { "games": "29", "goal": "5", "assist": "2", "rating": "6.85"},
+            "25/26": { "games": "11", "goal": "1", "assist": "0", "rating": "6.50"},
+            "26/27": { "games": "31", "goal": "6", "assist": "2", "rating": "6.76"}          
+        }
+    },
+    "Komur": {
+        "name": "Mert Komur",
+        "position": "AMC",
+        "seasons": { 
+            "25/26": { "games": "43", "goal": "16", "assist": "11", "rating": "7.18"},
+            "26/27": { "games": "41", "goal": "21", "assist": "11", "rating": "7.37"},
+            "27/28": { "games": "17", "goal": "11", "assist": "4", "rating": "7.38"}                      
+        }                
+    },
+    "Senaya": {
+        "name": "Evann Senaya",
+        "position": "LW",
+        "seasons": { 
+            "26/27": { "games": "22", "goal": "2", "assist": "3", "rating": "6.81"}                  
+        }                
     }
 }
 
